@@ -1,9 +1,10 @@
-import Weather from "./Components/Weather"
+import WeatherIndex from "./Components"
+
 
 const App = () => {
   return (
     <div className='app'>
-      <Weather/>
+      <WeatherIndex/>
     </div>
   )
 }
